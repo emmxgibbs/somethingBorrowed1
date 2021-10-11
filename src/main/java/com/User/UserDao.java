@@ -1,4 +1,4 @@
-package User;
+package com.User;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

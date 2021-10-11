@@ -1,8 +1,5 @@
-package User;
+package com.User;
 
-import User.UserDao;
-import User.UserRepository;
-import User.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -26,7 +23,7 @@ class MyUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserDao user = userDao.findByUsername(username);
         if(user == null){
-            throw new UsernameNotFoundException("User with this username no found: " + username);
+            throw new UsernameNotFoundException("com.User with this username not found: " + username);
         }
         return new User(user.getUsername(), user.getPassword(), new ArrayList<>());
     }

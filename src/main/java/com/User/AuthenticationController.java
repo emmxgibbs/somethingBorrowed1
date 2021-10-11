@@ -1,12 +1,5 @@
-package User;
+package com.User;
 
-import User.AuthenticationRequest;
-import User.AuthenticationResponse;
-import User.User;
-import User.UserDto;
-import User.MyUserDetailsService;
-import User.Jwt;
-import User.Sendmail;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

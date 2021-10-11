@@ -1,9 +1,11 @@
+package com;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class somethingBorrowed {
+public class SomethingBorrowed {
     public static void main(String[] args) {
-        SpringApplication.run(somethingBorrowed.class, args);
+        SpringApplication.run(SomethingBorrowed.class, args);
     }
 }

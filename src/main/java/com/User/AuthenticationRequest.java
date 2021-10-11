@@ -1,4 +1,4 @@
-package User;
+package com.User;
 
 public class AuthenticationRequest {
     private String username;

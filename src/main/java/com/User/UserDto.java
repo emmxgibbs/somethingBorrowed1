@@ -1,4 +1,4 @@
-package User;
+package com.User;
 
 public class UserDto {
     private Long user_id;

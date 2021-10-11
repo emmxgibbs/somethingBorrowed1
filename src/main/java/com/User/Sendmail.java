@@ -1,7 +1,6 @@
-package User;
+package com.User;
 
 import com.sun.mail.util.MailSSLSocketFactory;
-import User.UserDto;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
