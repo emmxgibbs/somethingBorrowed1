@@ -1,4 +1,4 @@
-package com.User;
+package com.Authentication;
 
 public class AuthenticationResponse {
     private final String jwt;

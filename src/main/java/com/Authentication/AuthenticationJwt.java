@@ -1,4 +1,4 @@
-package com.User;
+package com.Authentication;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.function.Function;
 
 @Service
-public class Jwt {
+public class AuthenticationJwt {
 
     private String SECRET_KEY = "NotetoSelfTheTokenKeyMustBeTwoHundredAndFiftySixBitsLongOrWillReturnAWeakKeyException";
 
