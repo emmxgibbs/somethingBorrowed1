@@ -19,22 +19,22 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <Link class="nav-link active" aria-current="page" to = "./">Home</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to ="./" >Books</Link>
+                <Link class="nav-link" to ="./books" >Books</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to ="./">Book Club</Link>
+                <Link class="nav-link" to ="./bookclub">Book Club</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to ="./">Reviews</Link>
+                <Link class="nav-link" to ="./reviews">Reviews</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to ="./">About Us</Link>
+                <Link class="nav-link" to ="./about">About Us</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to ="./">Contact Us</Link>
+                <Link class="nav-link" to ="./contact">Contact Us</Link>
               </li>
             </ul>
           </div>

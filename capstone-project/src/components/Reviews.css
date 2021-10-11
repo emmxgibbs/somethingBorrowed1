@@ -1,0 +1,18 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto, 45%;
+    grid-template-rows: 70px minmax(160px, auto) auto;
+    grid-template-areas: 
+      'header header'
+      'main rightbar'
+      'footer footer';
+    column-gap: 20px;
+    row-gap: 90px;
+    background-image: url('../resources/Background8.jpg');
+    background-position: auto;
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    width: 100vw;
+    height: 100vh;
+  }

@@ -1,0 +1,109 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: auto, 45%;
+    grid-template-rows: 70px minmax(160px, auto) auto;
+    grid-template-areas: 
+      'header header'
+      'main rightbar'
+      'footer footer';
+    column-gap: 20px;
+    row-gap: 90px;
+    background-image: url('../resources/Background8.jpg');
+    background-position: auto;
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    width: 100vw;
+    height: 100vh;
+  }
+
+ 
+
+  .page-header {
+    grid-area: header;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Abril Fatface;
+  }
+  
+  .page-rightbar {
+    grid-area: rightbar;
+    background-color: #dad7cd;
+    border-radius: 10px;
+  }
+  
+
+  /* .page-main {
+    grid-area: main;
+    background-color: #588157;
+    border-radius: 10px;
+
+  } */
+
+  .responsive {
+    width: 100%;
+    max-width: 700px;
+    height: 280px;
+    border-radius: 5px;
+    border: 30px solid #588157;
+  }
+  
+  .page-footer {
+    grid-area: footer;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    color: #344e34;
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0px;
+    font-family: Abril Fatface;
+  }
+
+  .content h3{
+      color: #fff;
+      width: 100%;
+      max-width:500px;
+      align-items: center;
+      justify-content: center;
+      display:flex;
+      flex-direction: row;
+      flex-direction: column;
+      font-weight: lighter;
+      font-size: 35px;
+  }
+
+  .content button {
+    width: 100%;
+    height:45px;
+    max-width: 200px;
+    background-color: #f3f1eb;
+    color: #344e34;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    text-transform: uppercase;
+    font-weight: 325;
+    font-size: 18px;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 2px;
+  }
+
+  .content button:hover {
+    background-color: #3a5a40;
+    color: #fff;
+  }
+
+  .content h1 {
+    font-weight: lighter;
+    font-family: Abril Fatface;
+  }

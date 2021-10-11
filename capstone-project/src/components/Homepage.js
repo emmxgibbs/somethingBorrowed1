@@ -1,11 +1,14 @@
 import React from 'react';
 import Card from './Card';
+import ImageSwapper from './Carousel';
 import Navbar from './Navbar';
 import buying from '../resources/buying.png';
 import trading from '../resources/trading.png';
 import reviewing from '../resources/reviewing.png';
 import './Homepage.css';
-import CarouselOne from './Carousel';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 
 export default function Homepage() {
   return(
@@ -13,9 +16,8 @@ export default function Homepage() {
           <Navbar/>
           <section>
               <div className = "background">
-              <div className = "quotes">
-                  <img src = {buying} alt = "Image of a book" className = "quotes-image" />
-                  <p className = "book-quote"> Quote of the day...</p>
+              <div className  = "bookimage" >
+              <ImageSwapper/>
               </div>        
               <div className = "services">
                   <h3> Services </h3>
@@ -35,7 +37,6 @@ export default function Homepage() {
                   </div>
               </div>  
               <div className = "fave-books">
-                <CarouselOne/>
               </div>
               </div>
           </section>  

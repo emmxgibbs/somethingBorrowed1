@@ -1,11 +1,24 @@
 import './App.css';
-import Navbar from './components/Navbar.js';
-import Homepage from './components/Homepage.js';
+import Homepage from './components/Homepage';
+import Books from './components/Books';
+import BookClub from './components/BookClub';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
+import Reviews from './components/Reviews';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      <Switch>
+         <Route exact path="/" component={Homepage} />
+         <Route path="/about" component={AboutUs} />
+         <Route path="/contact" component={ContactUs} />
+         <Route path="/reviews" component={Reviews} />
+         <Route path="/books" component={Books} />
+         <Route path="/bookclub" component={BookClub} />
+    </Switch>
+
     </div>
   );
 }

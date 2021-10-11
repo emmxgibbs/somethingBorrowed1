@@ -1,3 +1,12 @@
+.home-container{
+  flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .background {
     background-image: url('../resources/Background8.jpg');
     background-position: auto;
@@ -17,4 +26,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+
+  .bookimage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
