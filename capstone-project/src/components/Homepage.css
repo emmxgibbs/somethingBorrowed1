@@ -1,5 +1,5 @@
-/* .background{
-    background-image: url('../Resources/scott-webb-oRWRlTgBrPo-unsplash.jpg');
+.background {
+    background-image: url('../resources/Boho1.jpeg');
     background-position: auto;
     background-repeat: no repeat;
     background-size:cover;
@@ -17,4 +17,4 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  } */
+  }
