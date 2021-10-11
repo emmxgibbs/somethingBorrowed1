@@ -26,3 +26,10 @@
 .navbar-light .navbar-nav .nav-link {
     color: red;
 }
+
+li a:hover {
+    background-color: #f7dab8;
+    color: #fff;
+    border-radius: 5px;
+    
+  }
