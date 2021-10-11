@@ -5,13 +5,11 @@ public class UserDto {
     private String username;
     private String password;
     private String full_name;
-    private String user_type;
 
-    public UserDto(Long user_id, String username, String full_name, String user_type) {
+    public UserDto(Long user_id, String username, String full_name) {
         this.user_id = user_id;
         this.username = username;
         this.full_name = full_name;
-        this.user_type = user_type;
     }
 
     public String getUser_id() {

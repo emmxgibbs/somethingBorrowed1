@@ -33,7 +33,7 @@ class MyUserDetailsService implements UserDetailsService {
 
     public UserDto getCurrentUserProfileInfo(String username) throws UsernameNotFoundException{
         UserDao currentUser = userDao.findByUsername(username);
-        return new UserDto(currentUser.getId(), currentUser.getUsername(),currentUser.getFull_name(), currentUser.getUser_type());
+        return new UserDto(currentUser.getId(), currentUser.getUsername(), currentUser.getFull_name());
     }
 
     public UserDao save(UserDto user){

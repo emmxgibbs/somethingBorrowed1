@@ -1,7 +1,7 @@
 package User;
 
 import com.sun.mail.util.MailSSLSocketFactory;
-import com.team4.fitness_and_wellbeing.model.UserDto;
+import User.UserDto;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
@@ -54,7 +54,7 @@ public class Sendmail implements Runnable {
             message.setFrom(new InternetAddress(username));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(user.getUsername()));
             message.setSubject("Welcome to team4 PHYT");
-            message.setContent("<p><h2>Congratulations!</h2></p>"+user.getFull_name()+" <br> your register email is "+user.getUsername()+"<br>your user type is "+user.getUser_type(),"text/html;charset=UTF-8");
+            message.setContent("<p><h2>Congratulations!</h2></p>"+user.getFull_name()+" <br> your register email is "+user.getUsername(),"text/html;charset=UTF-8");
             ts.sendMessage(message,message.getAllRecipients());
             ts.close();
         }catch (MessagingException e){
