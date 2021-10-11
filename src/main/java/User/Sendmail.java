@@ -53,7 +53,7 @@ public class Sendmail implements Runnable {
             MimeMessage message = new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(user.getUsername()));
-            message.setSubject("Welcome to team4 PHYT");
+            message.setSubject("Welcome to Something Borrowed, Something Read!");
             message.setContent("<p><h2>Congratulations!</h2></p>"+user.getFull_name()+" <br> your register email is "+user.getUsername(),"text/html;charset=UTF-8");
             ts.sendMessage(message,message.getAllRecipients());
             ts.close();
