@@ -20,8 +20,6 @@ public class UserDao {
 
     @Column
     private String full_name;
-    @Column
-    private String user_type;
 
     public long getId() {
         return id;

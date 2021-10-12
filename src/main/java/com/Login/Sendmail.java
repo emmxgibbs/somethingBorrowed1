@@ -1,5 +1,6 @@
-package com.User;
+package com.Login;
 
+import com.User.UserDto;
 import com.sun.mail.util.MailSSLSocketFactory;
 
 import javax.mail.*;

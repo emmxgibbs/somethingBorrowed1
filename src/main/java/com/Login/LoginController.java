@@ -1,4 +1,4 @@
-package com.User;
+package com.Login;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,6 @@ public class LoginController {
 
     @RequestMapping(path = "/login")
     public String login(String name) {
-        return "home";
+        return "/login";
     }
 }
-
