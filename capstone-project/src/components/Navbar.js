@@ -6,7 +6,7 @@ import './Navbar.css';
 // import somethingbr from '../resources/somethingbr.png';
 // import SearchBar from './components/SearchBar.js';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { MDBCol } from "mdbreact";
+// import { MDBCol } from "mdbreact";
 import SearchPage from './SearchPage';
 
 function Navbar() {
