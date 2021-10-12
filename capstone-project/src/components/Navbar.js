@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-// import somethingsmall from '../resources/somethingsmall.gif';
 import somethinglong from '../resources/somethinglong.gif';
 import './Navbar.css';
-// import somethingbr from '../resources/somethingbr.png';
 // import SearchBar from './components/SearchBar.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { MDBCol } from "mdbreact";

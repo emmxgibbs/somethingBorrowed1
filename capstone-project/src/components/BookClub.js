@@ -1,16 +1,19 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './BookClub.css';
-// import buying from '../resources/buying.png';
+import aboutuspic from '../resources/aboutuspic.jpeg';
+import { Link } from "react-router-dom";
+
 
 
 export default function BookClub() {
   return(
   <div class="grid">
           <Navbar/>
-        {/* <header class="page-header">
+          
+        <header class="page-header">
             <div class="content">
-                <h1>About Us</h1>
+                <h1>Join the book club!</h1>
             </div>
         </header>
         <aside class="page-rightbar">
@@ -20,14 +23,14 @@ export default function BookClub() {
         </aside>
         <main class="page-main">
             <div class="content">
-                <img src ={buying} alt="books" class="responsive"/>
+                <img src ={aboutuspic} alt="books" class="responsive"/>
             </div>
         </main>
         <footer class="page-footer">
             <div class="content">
-                <h3>Thank you!</h3>
+                <h3>Thank you! <Link to="/register"><button class="">Sign In / Register</button></Link> </h3>
             </div>
-         </footer>   */}
-         </div> 
+         </footer>  
+         </div>
     )
 }

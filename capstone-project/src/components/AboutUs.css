@@ -1,109 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-.grid {
-    display: grid;
-    grid-template-columns: auto, 45%;
-    grid-template-rows: 70px minmax(160px, auto) auto;
-    grid-template-areas: 
-      'header header'
-      'main rightbar'
-      'footer footer';
-    column-gap: 20px;
-    row-gap: 90px;
-    background-image: url('../resources/Background8.jpg');
-    background-position: auto;
-    background-repeat: no repeat;
-    background-size:cover;
-    background-attachment:scroll;
-    width: 100vw;
-    height: 100vh;
+.aboutus-background{
+  background-image: url('../resources/aboutusbackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: space-evenly;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 305px;
   }
 
- 
 
-  .page-header {
-    grid-area: header;
-    width:100%;
+.aboutus-container{
+  flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    font-family: Abril Fatface;
-  }
-  
-  .page-rightbar {
-    grid-area: rightbar;
-    background-color: #dad7cd;
-    border-radius: 10px;
-  }
-  
+    justify-content: space-evenly;
+}
 
-  /* .page-main {
-    grid-area: main;
-    background-color: #588157;
-    border-radius: 10px;
+.aboutus-header h2{
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+  background-color: rgba(231, 173, 118, 0.26);
+  border-radius: 15px;
+}
 
-  } */
+.aboutus-gap{
+  color:rgba(255, 255, 255, 0);
+  padding:5px;
+}
 
-  .responsive {
-    width: 100%;
-    max-width: 700px;
-    height: 280px;
-    border-radius: 5px;
-    border: 30px solid #588157;
-  }
-  
-  .page-footer {
-    grid-area: footer;
-    text-transform: uppercase;
-  }
-  
-  .content {
-    color: #344e34;
-    font-weight: 400;
-    font-size: 34px;
-    text-align: center;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 0px;
-    font-family: Abril Fatface;
-  }
-
-  .content h3{
-      color: #fff;
-      width: 100%;
-      max-width:500px;
-      align-items: center;
-      justify-content: center;
-      display:flex;
-      flex-direction: row;
-      flex-direction: column;
-      font-weight: lighter;
-      font-size: 35px;
-  }
-
-  .content button {
-    width: 100%;
-    height:45px;
-    max-width: 200px;
-    background-color: #f3f1eb;
-    color: #344e34;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    text-transform: uppercase;
-    font-weight: 325;
-    font-size: 18px;
-    border:none;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
-    border-radius: 2px;
-  }
-
-  .content button:hover {
-    background-color: #3a5a40;
-    color: #fff;
-  }
-
-  .content h1 {
-    font-weight: lighter;
-    font-family: Abril Fatface;
-  }
+.aboutus-paragraph h4{
+  padding: 40px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  background-color: rgba(231, 173, 118, 0.26);
+  border-radius: 15px;
+}
