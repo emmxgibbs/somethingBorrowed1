@@ -10,21 +10,20 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 import javax.servlet.MultipartConfigElement;
 
-@Configuration
 public class WebConfiguration extends WebSecurityConfigurerAdapter {
 
     @Value("${file.imagesPath}")
     private String filePath;
 
-    @Bean
-    public MultipartConfigElement multipartConfigElement(){
-        MultipartConfigFactory factory = new MultipartConfigFactory();
-
-        factory.setMaxFileSize(DataSize.parse("1024MB"));
-        factory.setMaxRequestSize(DataSize.parse("1024MB"));
-        return factory.createMultipartConfig();
-
-    }
+//    @Bean
+//    public MultipartConfigElement multipartConfigElement(){
+//        MultipartConfigFactory factory = new MultipartConfigFactory();
+//
+//        factory.setMaxFileSize(DataSize.parse("1024MB"));
+//        factory.setMaxRequestSize(DataSize.parse("1024MB"));
+//        return factory.createMultipartConfig();
+//
+//    }
 
 //    public void addResourceHandlers(ResourceHandlerRegistry registry){
 //
