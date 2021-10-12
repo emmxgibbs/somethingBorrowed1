@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="made user sign up/login better">
+    <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="refactored a class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Sendmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/GeneralController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <updated>1633622109775</updated>
       <workItem from="1633622122833" duration="4560000" />
       <workItem from="1633954910418" duration="13385000" />
-      <workItem from="1633972136023" duration="9333000" />
+      <workItem from="1633972136023" duration="10690000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -185,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633972041837</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added web security, fixed some bugs">
+      <created>1634043697078</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634043697078</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactored a class">
+      <created>1634043938835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634043938835</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +219,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made user sign up/login" />
     <MESSAGE value="made user sign up/login better" />
-    <option name="LAST_COMMIT_MESSAGE" value="made user sign up/login better" />
+    <MESSAGE value="added web security, fixed some bugs" />
+    <MESSAGE value="refactored a class" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored a class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

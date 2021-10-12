@@ -30,10 +30,10 @@ public class User {
         return picUrl;
     }
 
-    public static void populateList(){
-        clientArrayList.add(new User("clint", "clientman", "../img/pp4.png"));
-        clientArrayList.add(new User("carrie", "clientess", "../img/pp3.png"));
-        clientArrayList.add(new User("kelly", "clientane", "../img/pp2.png"));
-        clientArrayList.add(new User("hellen", "hillclient", "../img/pp1.png"));
-    }
+//    public static void populateList(){
+//        clientArrayList.add(new User("clint", "clientman", "../img/pp4.png"));
+//        clientArrayList.add(new User("carrie", "clientess", "../img/pp3.png"));
+//        clientArrayList.add(new User("kelly", "clientane", "../img/pp2.png"));
+//        clientArrayList.add(new User("hellen", "hillclient", "../img/pp1.png"));
+//    }
 }

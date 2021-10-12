@@ -6,12 +6,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.unit.DataSize;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 import javax.servlet.MultipartConfigElement;
 
 @Configuration
-public class WebConfiguration extends WebMvcConfigurerAdapter {
+public class WebConfiguration extends WebSecurityConfigurerAdapter {
 
     @Value("${file.imagesPath}")
     private String filePath;
@@ -26,21 +26,21 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
 
     }
 
-    public void addResourceHandlers(ResourceHandlerRegistry registry){
-
-        if (filePath.equals("") || filePath.equals("${file.imagesPath}")){
-            String filesPath = WebConfiguration.class.getClassLoader().getResource("").getPath();
-            if (filesPath.indexOf(".jar") > 0){
-                filesPath = filesPath.substring(0, filesPath.indexOf(".jar"));
-            }else if(filesPath.indexOf("classes") > 0){
-                filesPath = filesPath.substring(0, filesPath.indexOf("classes"));
-            }
-            filesPath = filesPath.substring(0, filesPath.lastIndexOf("/")) + "/images/";
-            filePath = filesPath;
-        }
-        System.out.println("filePath :" + filePath + "\n");
-
-        registry.addResourceHandler("/images/**").addResourceLocations(filePath);
-        super.addResourceHandlers(registry);
-    }
+//    public void addResourceHandlers(ResourceHandlerRegistry registry){
+//
+//        if (filePath.equals("") || filePath.equals("${file.imagesPath}")){
+//            String filesPath = WebConfiguration.class.getClassLoader().getResource("").getPath();
+//            if (filesPath.indexOf(".jar") > 0){
+//                filesPath = filesPath.substring(0, filesPath.indexOf(".jar"));
+//            }else if(filesPath.indexOf("classes") > 0){
+//                filesPath = filesPath.substring(0, filesPath.indexOf("classes"));
+//            }
+//            filesPath = filesPath.substring(0, filesPath.lastIndexOf("/")) + "/images/";
+//            filePath = filesPath;
+//        }
+//        System.out.println("filePath :" + filePath + "\n");
+//
+//        registry.addResourceHandler("/images/**").addResourceLocations(filePath);
+//        super.addResourceHandlers(registry);
+//    }
 }
