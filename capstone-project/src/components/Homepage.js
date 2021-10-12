@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from './Card';
-import ImageSwapper from './Carousel';
 import Navbar from './Navbar';
 import buying from '../resources/buying.png';
 import trading from '../resources/trading.png';
@@ -8,6 +7,9 @@ import reviewing from '../resources/reviewing.png';
 import './Homepage.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import CarouselOne from './Carousel';
+import ImageSwapper from './ImageSwapper';
+
 
 
 export default function Homepage() {
@@ -16,27 +18,34 @@ export default function Homepage() {
           <Navbar/>
           <section>
               <div className = "background">
+              <div className = "header">
+              <h2> Get started on your reading adventure today... </h2> 
+              </div>
               <div className  = "bookimage" >
-              <ImageSwapper/>
+              <ImageSwapper/>    
               </div>        
               <div className = "services">
-                  <h3> Services </h3>
+                  <h2> Services we offer: </h2>
                   <div className = "row">
                       <div className = "col-sm-4" align = "center">
                           <Card imageSrc = {buying} 
-                          footers = "You can buy and borrow books from us!" />
+                          text = "You can buy and borrow books from us!" />
                       </div>
                       <div className = "col-sm-4" align = "center">
                           <Card imageSrc = {reviewing} 
-                          footers = "You can join an online book club and review books together!"/>
+                          text = "Join an online book club and review books!"/>
                       </div>
                       <div className = "col-sm-4" align = "center">
                           <Card imageSrc = {trading} 
-                          footers = "You can trade books with others!"/>
+                          text = "You can trade books with others!"/>
                       </div>
                   </div>
               </div>  
-              <div className = "fave-books">
+              <div className = "carousel-heading">
+              <h2> Check out our great list of books: </h2> 
+              </div>
+              <div className = "Carousel">
+                  <CarouselOne/>
               </div>
               </div>
           </section>  

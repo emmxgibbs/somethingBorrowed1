@@ -5,7 +5,11 @@ import BookClub from './components/BookClub';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Reviews from './components/Reviews';
+import SearchBar from './components/SearchBar';
 import { Route, Switch } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 
 function App() {
   return (
@@ -17,6 +21,7 @@ function App() {
          <Route path="/reviews" component={Reviews} />
          <Route path="/books" component={Books} />
          <Route path="/bookclub" component={BookClub} />
+         <Route path="/searchbar" component={SearchBar} />
     </Switch>
 
     </div>
@@ -24,25 +29,3 @@ function App() {
 }
 
 export default App;
-
-// import { Route, Switch } from 'react-router-dom';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Switch>
-//         <Route exact path="/" component={Homepage} />
-//         <Route path="/books" component={Books} />
-//         <Route path="/bookclub" component={Bookclub} />
-//         <Route path="/reviews" component={Reviews} />
-//         <Route path="/aboutus" component={AboutUs} />
-//         <Route path="/contactusus" component={ContactUs} />
-//         <Route path="/register" component={Register} />
-//         <Route path="/signin" component={SignIn} />
-//         <Route component={Error} />
-//       </Switch>
-//     </div>
-//   );
-// }
-
-// export default App;

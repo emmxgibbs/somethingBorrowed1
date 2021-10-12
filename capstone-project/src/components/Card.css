@@ -4,6 +4,10 @@
     border-radius: 5px;
     background-color: rgb(240, 218, 191);
     margin: 3rem;
+    height: 30%;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
 }
  
 /* On mouse-over, add a deeper shadow */
@@ -12,5 +16,25 @@
 }
  
 .contents-card {
-    padding: 5%;
+    padding: 5px;
+    height: 40%;
+    width: 40%;
+    background-color: rgb(240, 218, 191);
+}
+
+.card-img-top{
+    height: 40%;
+    width: 40%;
+    background-color: rgb(224, 147, 116);
+}
+
+.card-footer{
+    font-family: Abril Fatface;
+    font-size: medium;
+    color:rgb(117, 53, 53);
+    background-color: rgb(240, 218, 191);
+}
+
+.card-text{
+    color: red;
 }

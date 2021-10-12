@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './ContactUs.css';
-// import buying from '../resources/buying.png';
+import buying from '../resources/buying.png';
 
 
 export default function ContactUs() {

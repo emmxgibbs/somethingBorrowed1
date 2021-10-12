@@ -14,7 +14,7 @@
     background-color: rgb(255, 255, 255);   
     font-style:initial;
     font-weight:700px;  
-    color: red;  
+    
     
     
 }
@@ -33,3 +33,11 @@ li a:hover {
     border-radius: 5px;
     
   }
+.active-pink-4 input[type="text"]:focus:not([readonly]) {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  }
+/* .active-pink-3 input[type="text"] {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  } */

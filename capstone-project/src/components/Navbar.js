@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import somethinglong from '../resources/somethinglong.gif';
 import './Navbar.css';
 // import somethingbr from '../resources/somethingbr.png';
-
+// import SearchBar from './components/SearchBar.js';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { MDBCol } from "mdbreact";
+import SearchPage from './SearchPage';
 
 function Navbar() {
     return (
@@ -35,7 +37,10 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <Link class="nav-link" to ="./contact">Contact Us</Link>
-              </li>
+                </li>
+              <li class="nav-item">
+                <SearchPage/>
+                </li>
             </ul>
           </div>
         </div>
@@ -43,5 +48,18 @@ function Navbar() {
     )
 }
 
+
+
+
+// function SearchBar() {
+//   return(
+//     <li class="nav-item">
+//                 <Link class="nav-link" to ="./searchBar">Search Bar <Page></Page></Link>
+//               </li>
+//   )
+// }
+
+
 export default Navbar
+// export default SearchBar
 
