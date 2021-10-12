@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="made user sign up/login better">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/User/UserDetailsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Jwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/Sendmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +26,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,10 +82,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47004607" />
-    <property name="settings.editor.selected.configurable" value="CodeWithMe" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -93,11 +95,25 @@
       <recent name="com.User" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in somethingBorrowed">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SomethingBorrowed">
     <configuration name="All in somethingBorrowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="somethingBorrowed" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomethingBorrowed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SomethingBorrowed" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633622109775</updated>
       <workItem from="1633622122833" duration="4560000" />
-      <workItem from="1633954910418" duration="13292000" />
+      <workItem from="1633954910418" duration="13385000" />
+      <workItem from="1633972136023" duration="9333000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -161,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633961810228</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="made user sign up/login better">
+      <created>1633972041837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633972041837</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +207,16 @@
     <MESSAGE value="made user sign up/login" />
     <MESSAGE value="made user sign up/login better" />
     <option name="LAST_COMMIT_MESSAGE" value="made user sign up/login better" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

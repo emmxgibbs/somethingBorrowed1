@@ -8,9 +8,9 @@ public class User {
     private String picUrl;
     public static ArrayList<User> clientArrayList;
 
-    public User() {
-
-    }
+//    public User() {
+//
+//    }
 
     public User(String firstName, String lastName, String picUrl) {
         this.firstName = firstName;
