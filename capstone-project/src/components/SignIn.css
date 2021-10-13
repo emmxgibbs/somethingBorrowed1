@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 .background{
     background-image: url('../resources/Background8.jpg');
@@ -12,14 +12,12 @@
 
 .container{
     width: auto;
-    /* max-width:400px; */
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     border: 8px solid #af4d35;
-    /* background-color: #f3c4a786; */
     background-color: rgba(240, 218, 191, 0.801);
     height: 500px;
     margin: 2em;
@@ -77,4 +75,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
