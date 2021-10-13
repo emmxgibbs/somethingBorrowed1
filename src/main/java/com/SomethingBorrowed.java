@@ -22,4 +22,3 @@ public class SomethingBorrowed {
         return factory.createMultipartConfig();
     }
 }
-
