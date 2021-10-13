@@ -24,10 +24,10 @@ const Footer = () => {
               <Link to ="./bookclub" >Book Club</Link>
             </p>
             <p>
-              <Link to ="./contactus" >Contact Us</Link>
+              <Link to ="./contact" >Contact Us</Link>
             </p>
             <p>
-              <Link to ="./aboutus" >About Us</Link>
+              <Link to ="./about" >About Us</Link>
             </p>
           </MDBCol>
 
