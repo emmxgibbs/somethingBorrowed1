@@ -1,8 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import reviewing from '../resources/reviewing.png';
 import Card from './Card';
-import somethinglong from '../resources/somethinglong.gif';
 import mystic from '../resources/mystic.jpeg';
 import passport from '../resources/passport.jpeg';
 import sugarrun from '../resources/sugarrun.jpeg';
@@ -33,19 +31,19 @@ export default function CarouselOne() {
 <Carousel responsive={responsive}>
   <div className = "item1" align = "center"> 
         <Card imageSrc = {mystic} alt font-size="13p"
-            text ="mystic"/>      
+            text ="'Quote'"/>      
  </div>
  <div className = "item2" align = "center"> 
     <Card imageSrc = {passport} 
-            text = "passport"/>  
+            text = "'Quote'"/>  
  </div>
  <div className = "item3" align = "center"> 
       <Card imageSrc = {sugarrun} 
-            text = "sugarrun"/>  
+            text = "'Quote'"/>  
  </div>
  <div className = "item4" align = "center"> 
     <Card imageSrc = {thewatercure} 
-            text = "thewatercure"/>  
+            text = "'Quote'"/>  
  </div>
 </Carousel>
 )}

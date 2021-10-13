@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -25,16 +28,23 @@
 .card-img-top{
     height: 40%;
     width: 40%;
-    background-color: rgb(224, 147, 116);
+    background-color: rgba(248, 202, 184, 0.575);
 }
 
-.card-footer{
-    font-family: Abril Fatface;
+/* .card-footer{
+    font-family: 'Playfair Display', serif;
     font-size: medium;
     color:rgb(117, 53, 53);
     background-color: rgb(240, 218, 191);
-}
+} */
 
 .card-text{
-    color: red;
+    color: rgb(117, 53, 53);
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    
+}
+
+.card-body{
+    background-color:rgba(231, 179, 158, 0.24);
 }

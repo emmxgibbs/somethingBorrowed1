@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './BookClub.css';
-import aboutuspic from '../resources/aboutuspic.jpeg';
+import bookoftheweek from '../resources/bookoftheweek.jpg';
 import { Link } from "react-router-dom";
 
 
@@ -18,19 +18,29 @@ export default function BookClub() {
         </header>
         <aside class="page-rightbar">
             <div class="content">
-                <p>Facts</p>
+                <p> blah blah </p>
+                <p> blah blah </p>
+                <p>Wanna be part of the live discussion?</p>
+                <p> Join our zoom link:</p>
+                <div class="zoomlinks">
+                <p> the zoom link </p>
+                <p>Every Wednesdays from 7pm-8pm!</p> 
             </div>
+            </div>
+            
         </aside>
         <main class="page-main">
             <div class="content">
-                <img src ={aboutuspic} alt="books" class="responsive"/>
+                <img src ={bookoftheweek} alt="books" class="responsive"/>
             </div>
         </main>
         <footer class="page-footer">
             <div class="content">
-                <h3>Thank you! <Link to="/register"><button class="">Sign In / Register</button></Link> </h3>
+                <p class="booktitle">Book of the week!</p>
             </div>
          </footer>  
          </div>
     )
 }
+
+{/* <Link to="/register"><button class="">Sign In / Register</button></Link> */}
