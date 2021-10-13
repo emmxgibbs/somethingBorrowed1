@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @Service
 public class ForumService {
-    private ForumRepository forumRepository;
+    private final ForumRepository forumRepository;
 
     @Autowired
     public ForumService(ForumRepository forumRepository) {

@@ -1,14 +1,7 @@
 package com.WebConfig;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.servlet.MultipartConfigFactory;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.util.unit.DataSize;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-
-import javax.servlet.MultipartConfigElement;
 
 public class WebConfiguration extends WebSecurityConfigurerAdapter {
 

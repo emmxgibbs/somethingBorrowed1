@@ -10,12 +10,12 @@ import java.security.GeneralSecurityException;
 import java.util.Properties;
 
 public class Sendmail implements Runnable {
-    private String from = "1044902968@qq.com";
-    private String username = "1044902968@qq.com";
-    private String password = "ohvfjrjfoyvzbbed";
+    private final String from = "1044902968@qq.com";
+    private final String username = "1044902968@qq.com";
+    private final String password = "ohvfjrjfoyvzbbed";
 
 
-    private UserDto user;
+    private final UserDto user;
     public Sendmail(UserDto user){
         this.user = user;
     }

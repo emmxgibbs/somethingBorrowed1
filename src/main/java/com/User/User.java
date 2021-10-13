@@ -3,9 +3,9 @@ package com.User;
 import java.util.ArrayList;
 
 public class User {
-    private String firstName;
-    private String lastName;
-    private String picUrl;
+    private final String firstName;
+    private final String lastName;
+    private final String picUrl;
     public static ArrayList<User> clientArrayList;
 
     public User(String firstName, String lastName, String picUrl) {

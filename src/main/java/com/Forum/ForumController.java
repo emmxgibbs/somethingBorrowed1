@@ -10,7 +10,7 @@ import java.util.Optional;
 @RequestMapping(path = "somethingBorrowed/forum")
 public class ForumController {
 
-    private ForumService forumService;
+    private final ForumService forumService;
 
     @Autowired
     public ForumController(ForumService forumService){

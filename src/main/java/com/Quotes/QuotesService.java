@@ -7,7 +7,7 @@ import java.util.List;
 
 @Service
 public class QuotesService {
-    private QuotesRepository quotesRepository;
+    private final QuotesRepository quotesRepository;
 
     @Autowired
     public QuotesService(QuotesRepository quotesRepository) {

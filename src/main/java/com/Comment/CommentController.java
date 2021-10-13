@@ -10,7 +10,7 @@ import java.util.Optional;
 @RequestMapping(path = "somethingBorrowed/comment")
 public class CommentController {
 
-    private CommentService commentService;
+    private final CommentService commentService;
 
     @Autowired
     public CommentController(CommentService commentService){

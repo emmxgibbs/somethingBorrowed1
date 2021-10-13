@@ -13,10 +13,10 @@ import java.util.Optional;
 
 @Service
 public class TradeService {
-    private TradeRepository tradeRepository;
-    private BookRepository bookRepository;
-    private UserRepository userRepository;
-    private BookService bookService;
+    private final TradeRepository tradeRepository;
+    private final BookRepository bookRepository;
+    private final UserRepository userRepository;
+    private final BookService bookService;
 
     @Autowired
     public TradeService(TradeRepository tradeRepository, BookRepository bookRepository, UserRepository userRepository, BookService bookService) {

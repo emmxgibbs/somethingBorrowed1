@@ -5,25 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Comment/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Comment/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Comment/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Comment/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Forum/ForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Forum/ForumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Forum/ForumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Forum/ForumService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Trade/TradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Trade/TradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Trade/TradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Trade/TradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/User/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +123,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47004607" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -219,7 +245,7 @@
       <workItem from="1634049134041" duration="3799000" />
       <workItem from="1634053858733" duration="1325000" />
       <workItem from="1634115438777" duration="679000" />
-      <workItem from="1634116236119" duration="4281000" />
+      <workItem from="1634116236119" duration="5279000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -305,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634054320839</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished? who knows">
+      <created>1634120757005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634120757005</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finished? who knows">
+      <created>1634120775321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634120775321</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

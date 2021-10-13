@@ -14,7 +14,7 @@ import java.util.function.Function;
 @Service
 public class AuthenticationJwt {
 
-    private String SECRET_KEY = "NotetoSelfTheTokenKeyMustBeTwoHundredAndFiftySixBitsLongOrWillReturnAWeakKeyException";
+    private final String SECRET_KEY = "NotetoSelfTheTokenKeyMustBeTwoHundredAndFiftySixBitsLongOrWillReturnAWeakKeyException";
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);

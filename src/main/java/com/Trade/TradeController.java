@@ -11,7 +11,7 @@ import java.util.Optional;
 @RequestMapping(path = "somethingBorrowed/trade")
 public class TradeController {
 
-    private TradeService tradeService;
+    private final TradeService tradeService;
 
     @Autowired
     public TradeController(TradeService tradeService){

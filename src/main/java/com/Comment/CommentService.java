@@ -10,8 +10,8 @@ import java.util.Optional;
 
 @Service
 public class CommentService {
-    private CommentRepository commentRepository;
-    private BookRepository bookRepository;
+    private final CommentRepository commentRepository;
+    private final BookRepository bookRepository;
 
     @Autowired
     public CommentService(CommentRepository commentRepository, BookRepository bookRepository) {

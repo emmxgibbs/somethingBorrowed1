@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping(path = "somethingBorrowed/quotes")
 public class QuotesController {
 
-    private QuotesService quotesService;
+    private final QuotesService quotesService;
 
     @Autowired
     public QuotesController(QuotesService quotesService){

@@ -1,7 +1,7 @@
 package com.User;
 
 public class UserDto {
-    private Long user_id;
+    private final Long user_id;
     private String username;
     private String password;
     private String full_name;
