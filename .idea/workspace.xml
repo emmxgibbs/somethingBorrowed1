@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9436659-bee7-4987-a272-5c762d7979f4" name="Changes" comment="user to users and add path to security change">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" afterDir="false" />
+    <list default="true" id="a9436659-bee7-4987-a272-5c762d7979f4" name="Changes" comment="user to users and add path to security change" />
+    <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+    <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" beforeDir="false" />
+    <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <change beforePath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" afterDir="false" />
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
@@ -215,8 +215,6 @@
     <list>
       <item itemvalue="Application.SomethingBorrowed" />
       <item itemvalue="JUnit.All in somethingBorrowed" />
-      <item itemvalue="Spring Boot.SomethingBorrowed" />
-      <item itemvalue="Spring Boot.somethingBorrowed" />
       <item itemvalue="JUnit.MyUserDetailsServiceTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.UserRepositoryTest" />
