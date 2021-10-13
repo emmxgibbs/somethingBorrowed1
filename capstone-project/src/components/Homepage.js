@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselOne from './Carousel';
 import ImageSwapper from './ImageSwapper';
+import Footer from './Footer';
 
 
 
@@ -47,6 +48,9 @@ export default function Homepage() {
               <div className = "Carousel">
                   <CarouselOne/>
               </div>
+              </div>
+              <div className = "footer">
+                  <Footer/>
               </div>
           </section>  
       </div>    
