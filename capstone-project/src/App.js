@@ -6,6 +6,7 @@ import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Reviews from './components/Reviews';
 import SearchBar from './components/SearchBar';
+import SignIn from './components/SignIn';
 import { Route, Switch } from 'react-router-dom';
 // import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
@@ -22,6 +23,7 @@ function App() {
          <Route path="/books" component={Books} />
          <Route path="/bookclub" component={BookClub} />
          <Route path="/searchbar" component={SearchBar} />
+         <Route path="/signin" component={SignIn} />
     </Switch>
 
     </div>

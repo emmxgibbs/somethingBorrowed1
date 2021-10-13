@@ -63,7 +63,7 @@
 .content {
   color: #f5e0e0;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   box-sizing: border-box;
   height: 100%;
@@ -73,6 +73,14 @@
 
 .content .zoomlinks{
   font-family: Abril Fatface;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.content .description{
+  font-family: Abril Fatface;
+  font-size: 22px;
+  padding-top: 35px;
 }
 
 .content .booktitle{
@@ -86,7 +94,7 @@
     flex-direction: column;
     font-weight: 200px;
     font-size: 23px;
-    padding-left: 115px;
+    padding-left: 95px;
     background-color: rgba(180, 70, 55, 0.801);
 }
 
@@ -94,8 +102,8 @@
   width: 100%;
   height:45px;
   max-width: 200px;
-  background-color: #f3f1eb;
-  color: #344e34;
+  background-color: #f5dcc8;
+  color: #923528;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
@@ -110,7 +118,7 @@
 }
 
 .content button:hover {
-  background-color: #3a5a40;
+  background-color: #d3705fe8;
   color: #fff;
 }
 

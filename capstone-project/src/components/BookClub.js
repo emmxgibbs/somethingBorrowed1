@@ -18,12 +18,14 @@ export default function BookClub() {
         </header>
         <aside class="page-rightbar">
             <div class="content">
-                <p> blah blah </p>
-                <p> blah blah </p>
+                <div class = "description">
+                <p> This month we're reading One Day by David Nicholls </p>
+                <p> A beautiful tale revolving love and heartbreak </p> <hr/>
+                </div>
                 <p>Wanna be part of the live discussion?</p>
                 <p> Join our zoom link:</p>
+                <a href="http://"><button class="button">Click to join</button></a>
                 <div class="zoomlinks">
-                <p> the zoom link </p>
                 <p>Every Wednesdays from 7pm-8pm!</p> 
             </div>
             </div>
@@ -43,4 +45,4 @@ export default function BookClub() {
     )
 }
 
-{/* <Link to="/register"><button class="">Sign In / Register</button></Link> */}
+{/* <a= href="http://"><button class="button">Click to join</button></a> */}
