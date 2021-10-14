@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.form-background{
+    background-image: url('../resources/Background8.jpg');
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:scroll;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-container{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 8px solid #af4d35;
+    background-color: rgba(240, 218, 191, 0.801);
+    height: 60%;
+    /* margin: 2em; */
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.form-label{
+    width:100%;
+    height: fit-content;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Abril Fatface;
+    color: #923528;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+
+}
+
+.form-container h1{
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: #c7531d;
+}
+
+.form-submit{
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #f5dcc8;
+    color: #923528;
+    width:30%;
+    height:10%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #923528;
+}
+
+.form-submit:hover {
+    background-color: #d3705fe8;
+    color: #fff;
+  }
+
+
+.form-Register{
+    color: #ffffff;
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

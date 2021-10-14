@@ -1,0 +1,43 @@
+.navbar-brand {
+    background-color: white;
+    /* background-image: url('../somethingsmall'); */
+    width: 30%;
+    height: 30%;
+    /* align-items: baseline; */
+    padding: 8px;
+    /* box-sizing: border-box;
+    border-radius: 5px; */
+}
+
+.navbar {
+    font-family: Abril Fatface;
+    background-color: rgb(255, 255, 255);   
+    font-style:initial;
+    font-weight:700px;  
+    
+    
+    
+}
+/* 
+.nav-link{
+    color: red;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+}
+
+li a:hover {
+    background-color: #f7dab8;
+    color: #fff;
+    border-radius: 5px;
+    
+  }
+.active-pink-4 input[type="text"]:focus:not([readonly]) {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  }
+.active-pink-3 input[type="text"] {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  }
