@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/User/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,9 @@
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1zBWjy5flEiW7EoYqI8UiaWclwv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -209,7 +208,7 @@
       <workItem from="1634115438777" duration="679000" />
       <workItem from="1634116236119" duration="10905000" />
       <workItem from="1634220787449" duration="101000" />
-      <workItem from="1634221174273" duration="2230000" />
+      <workItem from="1634221174273" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634222926038</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished? who knows">
+      <created>1634224554376</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634224554376</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
