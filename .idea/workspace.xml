@@ -5,49 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe49def7-f873-4b02-8a75-e5ff06db6f28/storage_v2/_src_/database/somethingBorrowed.7t_Nzg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Authentication/AuthenticationJwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Book/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Comment/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Comment/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Comment/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Comment/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Forum/ForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Forum/ForumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Forum/ForumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Forum/ForumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/Sendmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Quotes/QuotesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Trade/TradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Trade/TradeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Trade/TradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Trade/TradeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebConfig/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/HomeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/User/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,11 +177,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in somethingBorrowed" />
-      <item itemvalue="Spring Boot.SomethingBorrowed" />
-      <item itemvalue="Spring Boot.somethingBorrowed" />
       <item itemvalue="JUnit.MyUserDetailsServiceTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="Spring Boot.SomethingBorrowed" />
+      <item itemvalue="Spring Boot.somethingBorrowed" />
     </list>
     <recent_temporary>
       <list>
@@ -245,7 +206,8 @@
       <workItem from="1634049134041" duration="3799000" />
       <workItem from="1634053858733" duration="1325000" />
       <workItem from="1634115438777" duration="679000" />
-      <workItem from="1634116236119" duration="5279000" />
+      <workItem from="1634116236119" duration="10905000" />
+      <workItem from="1634220787449" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -345,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634120775321</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finished? who knows">
+      <created>1634121807404</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1634121807404</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finished? who knows">
+      <created>1634121817982</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634121817982</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
