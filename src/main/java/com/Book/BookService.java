@@ -14,9 +14,12 @@ public class BookService {
     private final BookRepository bookRepository;
 
     @Autowired
-    public BookService(BookRepository bookRepository) {
+    public BookService(BookRepository bookRepository){
         this.bookRepository = bookRepository;
     }
+//    public BookService(BookRepository bookRepository) {
+//        this.bookRepository = bookRepository;
+//    }
 
     //returns a list from db. Look into the .findAll function, there is a sorting
     public List<Book> getBooks() {

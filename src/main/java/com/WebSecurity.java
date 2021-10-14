@@ -34,7 +34,12 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
     }
 
     @Autowired
-    private AuthenticationRequestFilter authenticationRequestFilter;
+    private AuthenticationRequestFilter jwtRequestFilter;
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(myUserDetailsService);
+    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -47,6 +52,13 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
 
         http.csrf().disable()
                 .authorizeRequests()
+                .antMatchers("/html/**", "/images/**", "/css/**", "/js/**", "/font/**", "/img/**", "/ExerciseImg/**").permitAll()
+                .antMatchers("/authenticate", "/register", "/home", "/login", "/search", "/trade", "/somethingBorrowed/book", "/somethingBorrowed/forum").permitAll()
+                .anyRequest().authenticated()
+                .and().sessionManagement()
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+    }
                 .antMatchers("/html/**", "/images/**", "/css/**", "/js/**", "/font/**","/favicon.ico","/img/**","/ExerciseImg/**").permitAll()
                 .antMatchers("/authenticate", "/register", "/home", "/login", "/console","/createRoutine", "/comment","/showcomments","/addComment","/countdown",
                             "/getClientList","/search","/uploadFile","/deleteFile",
@@ -62,7 +74,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
         }
 
     @Bean
-    public PasswordEncoder passwordEncoder(){
+    public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
