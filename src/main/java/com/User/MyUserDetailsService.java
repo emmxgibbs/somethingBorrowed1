@@ -2,6 +2,7 @@ package com.User;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Primary;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 
 
 @Service
+@Primary
 public class MyUserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService {
 
     @Autowired

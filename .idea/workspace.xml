@@ -5,25 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SomethingBorrowed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/Forum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/Quotes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SomethingBorrowed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/Trade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/MyUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Book/BookServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/MyUserDetailsServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserDetailsServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserRepositoryTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +110,9 @@
       </map>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="1zBWjy5flEiW7EoYqI8UiaWclwv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -81,6 +122,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -98,9 +141,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47004607" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -118,7 +162,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SomethingBorrowed">
+  <component name="RunManager" selected="Spring Boot.somethingBorrowed">
     <configuration name="All in somethingBorrowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="somethingBorrowed" />
       <option name="PACKAGE_NAME" value="" />
@@ -172,11 +216,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SomethingBorrowed (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="somethingBorrowed1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SomethingBorrowed" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomethingBorrowed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.SomethingBorrowed" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,13 +237,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="somethingBorrowed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SomethingBorrowed" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.All in somethingBorrowed" />
-      <item itemvalue="Spring Boot.SomethingBorrowed" />
-      <item itemvalue="Spring Boot.somethingBorrowed" />
       <item itemvalue="JUnit.MyUserDetailsServiceTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="Spring Boot.somethingBorrowed" />
+      <item itemvalue="Spring Boot.SomethingBorrowed (1)" />
+      <item itemvalue="Spring Boot.SomethingBorrowed" />
     </list>
     <recent_temporary>
       <list>
@@ -219,7 +278,9 @@
       <workItem from="1634049134041" duration="3799000" />
       <workItem from="1634053858733" duration="1325000" />
       <workItem from="1634115438777" duration="679000" />
-      <workItem from="1634116236119" duration="4281000" />
+      <workItem from="1634116236119" duration="10905000" />
+      <workItem from="1634220787449" duration="101000" />
+      <workItem from="1634221174273" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="made user sign up/login">
       <created>1633958069947</created>
@@ -305,7 +366,49 @@
       <option name="project" value="LOCAL" />
       <updated>1634054320839</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished? who knows">
+      <created>1634120757005</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634120757005</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finished? who knows">
+      <created>1634120775321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634120775321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finished? who knows">
+      <created>1634121807404</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1634121807404</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finished? who knows">
+      <created>1634121817982</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634121817982</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finished? who knows">
+      <created>1634222926038</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1634222926038</updated>
+    </task>
+    <task id="LOCAL-00018" summary="finished? who knows">
+      <created>1634224554376</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634224554376</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

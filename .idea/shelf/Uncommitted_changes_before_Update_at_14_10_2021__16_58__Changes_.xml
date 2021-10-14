@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_14_10_2021,_16_58_[Changes]" date="1634227401555" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2021,_16_58_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 14/10/2021, 16:58 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/WebSecurity.class" />
+    <option name="AFTER_PATH" value="target/classes/com/WebSecurity.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2021,_16_58_[Changes]/WebSecurity.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/WebSecurity$1.class" />
+    <option name="AFTER_PATH" value="target/classes/com/WebSecurity$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_10_2021,_16_58_[Changes]/WebSecurity$1.class" />
+  </binary>
+</changelist>
