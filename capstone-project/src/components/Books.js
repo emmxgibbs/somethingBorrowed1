@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import './Books.css';
+import BookInvent from '../containers/BookInvent'
 // import buying from '../resources/buying.png';
 
 
@@ -8,6 +9,7 @@ export default function Books() {
   return(
   <div class="grid">
           <Navbar/>
+          <BookInvent/>
         {/* <header class="page-header">
             <div class="content">
                 <h1>About Us</h1>

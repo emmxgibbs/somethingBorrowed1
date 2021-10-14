@@ -1,6 +1,5 @@
-
 import React from 'react';
-import BookCard from './NookCard';
+import BookCard from './BookCard';
 import axios from 'axios';
 
 export default class BookInventory extends React.Component {
