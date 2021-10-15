@@ -1,6 +1,7 @@
 package com.Login;
 
 import com.User.User;
+import com.Login.LoginForm;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,11 +23,14 @@ import org.springframework.web.servlet.ModelAndView;
 public class LoginController {
 
     @RequestMapping("/login")
-    public ModelAndView loginPage(){
-        ModelAndView model = new ModelAndView();
-        model.setViewName("index");
-        return model;
+    public String login(String name){
+        return "loginForm";
     }
+//    public ModelAndView loginPage(){
+//
+////        ModelAndView model = new ModelAndView();
+////        model.setViewName("index");
+////        return model;
 
     @RequestMapping(value = "/secured/loginSuccess", method = RequestMethod.POST)
     public User loginSuccess(){
