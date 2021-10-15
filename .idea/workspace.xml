@@ -4,64 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="finished? who knows">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/somethingBorrowed1.iml" afterDir="false" />
+    <list default="true" id="ca5f4992-3f84-4fef-b174-ad478c940633" name="Changes" comment="merged lizzie 2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/User/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationJwt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Authentication/AuthenticationResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Book/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/Comment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Comment/CommentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/Forum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Forum/ForumService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/LoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Login/Sendmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/Quotes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Quotes/QuotesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SomethingBorrowed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/Trade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Trade/TradeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/MyUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/User/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WebConfig/WebConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/WebSecurity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Book/BookServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/MyUserDetailsServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserDetailsServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/User/UserRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Book/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,9 +55,6 @@
         <entry key="JPA Structure" value="false" />
       </map>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1zBWjy5flEiW7EoYqI8UiaWclwv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -408,7 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634224554376</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="finished? who knows">
+      <created>1634229361116</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634229361116</updated>
+    </task>
+    <task id="LOCAL-00020" summary="merged lizzie 2.0">
+      <created>1634229392393</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1634229392393</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +391,8 @@
     <MESSAGE value="edits to user" />
     <MESSAGE value="edited to make application build" />
     <MESSAGE value="finished? who knows" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished? who knows" />
+    <MESSAGE value="merged lizzie 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged lizzie 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -32,25 +32,6 @@ public class Book {
     boolean borrowed;
     String genre;
 
-    public Book() {
-
-    }
-
-    public Book(Long id, String title, String author, String blurb, String isbn, String publisher, int year, Double rating, String buyLink, String imageLink, boolean borrowed, String genre) {
-        this.id = id;
-        this.title = title;
-        this.author = author;
-        this.blurb = blurb;
-        this.isbn = isbn;
-        this.publisher = publisher;
-        this.year = year;
-        this.rating = rating;
-        this.buyLink = buyLink;
-        this.imageLink = imageLink;
-        this.borrowed = borrowed;
-        this.genre = genre;
-    }
-
     public Book(String title, String author, String blurb, String isbn, String publisher, int year, Double rating, String buyLink, String imageLink, boolean borrowed, String genre) {
         this.title = title;
         this.author = author;
