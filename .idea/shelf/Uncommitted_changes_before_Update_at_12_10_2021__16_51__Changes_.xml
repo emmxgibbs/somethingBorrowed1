@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_10_2021,_16_51_[Changes]" date="1634053894039" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2021,_16_51_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/10/2021, 16:51 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/dataSources/b35356cb-7af1-4c57-93dc-264e661e184f/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/dataSources/b35356cb-7af1-4c57-93dc-264e661e184f/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value=".idea/dataSources/b35356cb-7af1-4c57-93dc-264e661e184f/storage_v2/_src_/database/postgres.edMnLQ.meta" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
