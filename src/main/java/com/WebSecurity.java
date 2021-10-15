@@ -59,7 +59,7 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
                 .authorizeRequests()
                 .antMatchers("**/secure/**").authenticated()
                 .antMatchers("/html/**", "/images/**", "/css/**", "/js/**", "/font/**", "/img/**").permitAll()
-                .antMatchers(" /authenticate", "/rest", "/secured/loginSuccess", "/noLogin", "/register", "/secured/home", "/login", "/somethingBorrowed/trade", "/somethingBorrowed/book", "/somethingBorrowed/comment", "/somethingBorrowed/quotes", "/somethingBorrowed/forum").permitAll()
+                .antMatchers(" /authenticate", "/somethingBorrowed/*", "/secured/loginSuccess", "/noLogin", "/register", "/secured/home", "/login", "/somethingBorrowed/trade", "/somethingBorrowed/book", "/somethingBorrowed/comment", "/somethingBorrowed/quotes", "/somethingBorrowed/forum").permitAll()
                 .anyRequest().permitAll()
                 .and().formLogin().loginPage("/login").successForwardUrl("/rest/secured/loginSuccess").permitAll()
                 .and().logout().logoutSuccessUrl("/login?logout")

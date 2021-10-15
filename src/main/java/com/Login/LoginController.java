@@ -18,7 +18,7 @@ import org.springframework.web.servlet.ModelAndView;
 //
 //}
 
-@RequestMapping("/rest")
+@RequestMapping("/somethingBorrowed")
 @RestController
 public class LoginController {
 
